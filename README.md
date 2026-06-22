@@ -20,9 +20,9 @@ No framework, no build — Vercel serves the static files directly.
 1. **Record the video.** Replace the `<figure class="player">` placeholder in
    `index.html` with a real `<video>` (the markup to swap in is in an HTML comment
    right above it). The 16:9 box already reserves the exact space — no layout shift.
-2. **Live account link.** Replace `#REPLACE_WITH_LIVE_ACCOUNT` in `index.html`
-   with the real Andrés Bilbao account URL (this is the verifiable-proof link).
-3. **Deploy** and paste the production URL into the YC form's link field.
+2. ~~**Live account link.**~~ Done — points to https://www.instagram.com/andresbilbao/
+3. ~~**Deploy.**~~ Done — live at https://fckyeslol.github.io/ycombinator/ (GitHub Pages,
+   `main` branch root). Pushing to `main` auto-redeploys in ~1 min.
 
 ## Design notes
 - Direction: "mission control for personal brands" — light instrument panel.
