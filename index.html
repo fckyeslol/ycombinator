@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prewave — the content engine that grew a founder 40k → 700k+</title>
+  <meta name="description" content="Prewave is an AI system that runs the full content engine for a personal brand. It grew Andrés Bilbao (co-founder of Rappi) from 40k to 700k+ followers in 5 months." />
+  <meta property="og:title" content="Prewave — 40k → 700k+ in 5 months" />
+  <meta property="og:description" content="An AI system that runs the full content engine for a personal brand. Writes in your voice, runs a human approval board, schedules and publishes." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230D1014'/%3E%3Cpath d='M5 22 C12 21 16 14 21 9 S27 4 28 5' fill='none' stroke='%2306A66B' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="nav__brand" href="#top" aria-label="Prewave home">
+      <svg class="nav__mark" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="8" fill="var(--ink)"></rect>
+        <path d="M5 22 C12 21 16 14 21 9 S27 4 28 5" fill="none" stroke="var(--growth)" stroke-width="3" stroke-linecap="round"></path>
+      </svg>
+      <span>Prewave</span>
+    </a>
+    <span class="nav__tag">YC Startup School 2026 · Project Session</span>
+  </header>
+
+  <main id="top">
+    <!-- ============================ HERO ============================ -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__copy">
+        <p class="eyebrow">AI content engine</p>
+        <h1 id="hero-heading" class="hero__heading">
+          We grew a founder's audience
+        </h1>
+        <p class="hero__metric" aria-label="From 40 thousand to over 700 thousand followers">
+          <span class="hero__from">40k</span>
+          <span class="hero__arrow" aria-hidden="true">→</span>
+          <span class="hero__to"><span class="count" data-target="700">0</span>k<span class="hero__plus">+</span></span>
+        </p>
+        <p class="hero__sub">
+          in five months. Prewave scrapes what's already going viral, scripts it in
+          the founder's <strong>own voice</strong>, runs it through a swipe-approval and
+          editor pipeline, then publishes across Instagram, TikTok, LinkedIn and Substack.
+        </p>
+        <ul class="chips" aria-label="At a glance">
+          <li class="chip">Account owner: co-founder of <strong>Rappi</strong></li>
+          <li class="chip">8 accounts in production</li>
+          <li class="chip">6 platforms monitored</li>
+          <li class="chip"><span class="chip__up">▲</span> another grew 0 → 30k</li>
+        </ul>
+      </div>
+
+      <figure class="chart" aria-label="Follower growth from 40k to 700k+ over five months">
+        <svg class="chart__svg" viewBox="0 0 600 320" preserveAspectRatio="none" role="img">
+          <defs>
+            <linearGradient id="lineGrad" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0%" stop-color="var(--accent)"></stop>
+              <stop offset="100%" stop-color="var(--growth)"></stop>
+            </linearGradient>
+            <linearGradient id="fillGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="var(--growth)" stop-opacity="0.18"></stop>
+              <stop offset="100%" stop-color="var(--growth)" stop-opacity="0"></stop>
+            </linearGradient>
+          </defs>
+          <g class="chart__grid" aria-hidden="true">
+            <line x1="0" y1="80" x2="600" y2="80"></line>
+            <line x1="0" y1="160" x2="600" y2="160"></line>
+            <line x1="0" y1="240" x2="600" y2="240"></line>
+          </g>
+          <path class="chart__area" d="M14,292 C150,286 300,250 420,150 S560,46 588,28 L588,320 L14,320 Z" fill="url(#fillGrad)"></path>
+          <path class="chart__line" d="M14,292 C150,286 300,250 420,150 S560,46 588,28" fill="none" stroke="url(#lineGrad)" stroke-width="4" stroke-linecap="round"></path>
+          <circle class="chart__dot" cx="588" cy="28" r="7"></circle>
+        </svg>
+        <figcaption class="chart__labels" aria-hidden="true">
+          <span class="chart__label chart__label--start">40k · month 0</span>
+          <span class="chart__label chart__label--end">700k+ · month 5</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- ============================ VIDEO ============================ -->
+    <section class="section video" aria-labelledby="video-heading">
+      <div class="section__head">
+        <p class="eyebrow">Walkthrough</p>
+        <h2 id="video-heading" class="section__title">See it run in 90 seconds</h2>
+      </div>
+
+      <!-- VIDEO PLACEHOLDER.
+           To go live: replace this <figure> with
+           <video controls playsinline poster="poster.jpg">
+             <source src="walkthrough.mp4" type="video/mp4" />
+             <track kind="captions" src="captions.vtt" srclang="en" label="English" default />
+           </video>
+           The 16:9 box below already reserves the exact final space (no layout shift). -->
+      <figure class="player" aria-label="Founder walkthrough video — recording soon">
+        <div class="player__frame">
+          <button class="player__btn" type="button" aria-label="Walkthrough video — recording soon" data-coming-soon>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>
+          </button>
+          <p class="player__meta">Founder walkthrough · ~90 sec</p>
+          <p class="player__status" data-status>Recording soon — placeholder</p>
+        </div>
+      </figure>
+    </section>
+
+    <!-- ============================ THE LOOP ============================ -->
+    <section class="section loop" aria-labelledby="loop-heading">
+      <div class="section__head">
+        <p class="eyebrow">The insight</p>
+        <h2 id="loop-heading" class="section__title">
+          Most AI tools stop at generation. Prewave runs the whole loop — from
+          scraping what works to attributing what grew.
+        </h2>
+        <p class="section__lead">A full content team, run by one operator.</p>
+      </div>
+
+      <ol class="loop__track" aria-label="The Prewave content loop">
+        <li class="stage">
+          <span class="stage__k">01</span>
+          <h3 class="stage__name">Scrape &amp; score</h3>
+          <p class="stage__desc">Monitors top creators across 6 platforms and surfaces the <strong>outliers</strong> — posts beating their own author's average.</p>
+        </li>
+        <li class="stage">
+          <span class="stage__k">02</span>
+          <h3 class="stage__name">Brief &amp; script</h3>
+          <p class="stage__desc">AI turns each winner into a brief and a script written in the account's <strong>own voice</strong>.</p>
+        </li>
+        <li class="stage">
+          <span class="stage__k">03</span>
+          <h3 class="stage__name">Swipe &amp; QA</h3>
+          <p class="stage__desc">The team approves or rejects in a <strong>Tinder-style</strong> board, behind a quality gate.</p>
+        </li>
+        <li class="stage">
+          <span class="stage__k">04</span>
+          <h3 class="stage__name">Produce</h3>
+          <p class="stage__desc">An editor kanban takes raw footage to final cut, with <strong>role-based access</strong> for the team.</p>
+        </li>
+        <li class="stage">
+          <span class="stage__k">05</span>
+          <h3 class="stage__name">Verify &amp; publish</h3>
+          <p class="stage__desc">Fact-checks against live web search, then schedules across Instagram, TikTok, LinkedIn and Substack.</p>
+        </li>
+        <li class="stage stage--last">
+          <span class="stage__k">06</span>
+          <h3 class="stage__name">Attribute</h3>
+          <p class="stage__desc">Tracks which content actually drove follower growth — and feeds it back.</p>
+        </li>
+      </ol>
+      <p class="loop__return" aria-hidden="true">↺ Attribution feeds the next scrape — the loop compounds</p>
+    </section>
+
+    <!-- ============================ DIFFERENCE ============================ -->
+    <section class="section diff" aria-labelledby="diff-heading">
+      <div class="section__head">
+        <p class="eyebrow">Why it works</p>
+        <h2 id="diff-heading" class="section__title">Where generators stop, Prewave keeps going.</h2>
+      </div>
+      <div class="diff__grid">
+        <article class="diff__card">
+          <h3 class="diff__name">Starts from what's winning</h3>
+          <p class="diff__desc">Not blank-page AI. Prewave reverse-engineers viral posts from a watchlist of top creators and scores for outliers.</p>
+        </article>
+        <article class="diff__card">
+          <h3 class="diff__name">Runs a whole team</h3>
+          <p class="diff__desc">Swipe approvals, a QA gate and an editor pipeline — with role-based access for admins, producers, editors and creators.</p>
+        </article>
+        <article class="diff__card">
+          <h3 class="diff__name">Won't ship a false claim</h3>
+          <p class="diff__desc">Every cut is fact-checked against live web search. False claims and dead tools get blocked before they publish.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================ PROOF ============================ -->
+    <section class="section proof" aria-labelledby="proof-heading">
+      <div class="section__head">
+        <p class="eyebrow">Proof</p>
+        <h2 id="proof-heading" class="section__title">Numbers you can check.</h2>
+      </div>
+
+      <div class="proof__grid">
+        <article class="proof__card proof__card--hero">
+          <p class="proof__stat"><span class="proof__from">40k</span> → <span class="proof__to">700k+</span></p>
+          <p class="proof__label">Andrés Bilbao — co-founder of Rappi — in 5 months</p>
+          <!-- TODO: replace href with the real live account URL -->
+          <a class="proof__link" href="#REPLACE_WITH_LIVE_ACCOUNT" target="_blank" rel="noopener">
+            View the live account →
+          </a>
+        </article>
+        <article class="proof__card">
+          <p class="proof__stat proof__stat--sm">8</p>
+          <p class="proof__label">accounts running on Prewave today</p>
+        </article>
+        <article class="proof__card">
+          <p class="proof__stat proof__stat--sm">0 → 30k</p>
+          <p class="proof__label">another account, built from zero</p>
+        </article>
+      </div>
+      <p class="proof__platforms">Publishing live to Instagram · TikTok · LinkedIn · Substack</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>Prewave</span>
+    <span class="foot__by">Built by Mateo Pirela for YC Startup School 2026</span>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
